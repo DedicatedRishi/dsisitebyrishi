@@ -1,0 +1,47 @@
+.atxHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.atxHead h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 100px 0px;
+    text-align: center;
+}
+.atxContent{
+    padding: 30px 10%;
+    background-color: white;
+}
+.atxContent h3{
+    font-size: 36px;
+    margin: 20px 0px;
+}
+
+.features{
+    margin: 30px 0px;
+}
+.features h4{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+.features li{
+    line-height: 25px;
+    margin-left: 25px;
+}
+
+@media(max-width:540px){
+    .atxHead h2{
+        font-size: 36px;
+    }
+    .atxContent{
+        padding: 30px 5%;
+    }
+    .atxContent h3{
+        font-size: 30px;
+    }
+    .features h4{
+        font-size: 24px;
+    }
+}

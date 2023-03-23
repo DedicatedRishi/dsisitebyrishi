@@ -1,0 +1,70 @@
+.antennaControlHead{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+}
+.antennaControlHead h2{
+    font-size: 48px;
+    margin: 100px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+.antennaControlContent{
+    background-color: white;
+    padding: 30px 10%;
+}
+.aboutAtx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutAtx h3{
+    font-size: 36px;
+    margin: 10px 0px 0px;
+}
+.modelName{
+    font-size: 20px;
+}
+.atxImg{
+    position: relative;
+    width: 340px;
+    height: 239px;
+}
+.section{
+    margin: 50px 0px;
+}
+.section h4{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.section h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+.section li{
+    line-height: 25px;
+    margin-left: 20px;
+}
+@media(max-width:540px){
+    .antennaControlHead h2{
+        font-size: 36px;
+    }
+    .antennaControlContent{
+        padding: 30px 5%;
+    }
+    .aboutAtx h3{
+        font-size: 30px;
+    }
+    .section h4{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:360px){
+    .atxImg{
+        width: 270px;
+        height: 200px;
+    }
+}

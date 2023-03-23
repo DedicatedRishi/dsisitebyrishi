@@ -1,0 +1,103 @@
+.contact h2{
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin: 100px 0px;
+}
+.contactSection{
+  background-color: white;
+  padding: 30px 10%;
+}
+.contactSection h3{
+  font-size: 36px;
+  font-weight: bold;
+  margin: 30px 0px 10px;
+}
+.contactSection h4{
+  font-size: 28px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+.contactSection h5{
+font-size: 20px;
+font-weight: bold;
+margin: 10px 0px;
+}
+.section{
+  margin: 50px 0px;
+}
+.section div{
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.section a{
+  margin-left: 5px;
+}
+.ContactComponent {
+  padding: 30px 10%;
+  color: white;
+}
+.ContactComponent h2 {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0px;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+.formContainer input,
+.formContainer textarea {
+  padding: 20px;
+  width: 100%;
+  margin: 10px 0px;
+  background: none;
+  border: 2px solid rgb(32, 32, 249);
+  border-radius: 20px;
+  color: white;
+  resize: vertical;
+  outline: none;
+}
+.formContainer button {
+  width: 40%;
+  padding: 20px;
+  background-color: rgb(32, 32, 249);
+  border: 2px solid rgb(32, 32, 249);
+  align-self: flex-start;
+  margin-top: 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.map {
+  height: 400px;
+  background-color: white;
+}
+.map iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+@media (hover: hover) {
+  .formContainer button:hover {
+    background: transparent;
+    color: rgb(32, 32, 249);
+  }
+}
+@media (hover: none) {
+  .formContainer button:active {
+    background: transparent;
+    color: rgb(32, 32, 249);
+  }
+}
+@media (max-width: 540px) {
+  .formContainer button {
+    width: 100%;
+  }
+}

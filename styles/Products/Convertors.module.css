@@ -1,0 +1,121 @@
+.convertorsHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.convertorsHead h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px 0px;
+}
+.convertorsContent{
+    padding: 30px 10%;
+    background-color: white;
+}
+.aboutConvertors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.convertorImg{
+    position: relative;
+    width: 300px;
+    height: 50px;
+}
+.convertorsContent h3{
+    font-size: 36px;
+    margin: 10px 0px;
+}
+.convertorsContent h4{
+    font-size: 30px;
+    margin: 20px 0px 10px;
+    text-align: center;
+}
+.convertorsContent h5{
+    font-size: 24px;
+    margin: 30px 0px 10px;
+}
+.models{
+    margin: 20px 0px;
+}
+.model{
+    margin: 10px 0px;
+}
+.model h6{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5px 0px;
+    background-color: rgb(32, 32, 249);
+    font-family: "Montserrat", 'Times New Roman', Times, serif;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.convertorsContent table{
+    width: 100%;
+   text-align: center;
+   margin: 20px 0px;
+   font-family: "Montserrat",'Times New Roman', Times, serif;
+   border: 1px solid black;
+   overflow: scroll;
+}
+.convertorsContent table caption{
+    background-color: rgb(32, 32, 249);
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+.convertorsContent table th{
+    background-color: rgb(32, 32, 249);
+    padding: 10px;
+    color: white;
+}
+.convertorsContent td{
+padding: 10px;
+font-weight: bold;
+border: 1px solid black;
+}
+.tableImg{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+@media(max-width:540px){
+    .convertorsHead h2{
+        font-size: 36px;
+    }
+    .convertorsContent{
+        padding: 30px 5%;
+    }
+    .details{
+        font-size: 12px;
+    }
+    .aboutConvertors h3{
+        font-size: 30px;
+    }
+    .convertorsContent h4{
+            font-size: 24px;
+    }
+    .aboutConvertors h5{
+        font-size: 20px;
+    }
+    .model h6{
+        font-size: 16px;
+    }
+}
+@media(max-width:320px){
+    .convertorImg{
+        width: 250px;
+    }
+}

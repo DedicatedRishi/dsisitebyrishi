@@ -1,0 +1,67 @@
+.careersHead {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.careersHead h2{
+    font-size: 48px;
+    margin: 100px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.careersContent {
+    background-color: white;
+    padding: 30px 10%;
+  }
+  .careersContent h3 {
+    font-size: 36px;
+    margin: 30px 0px;
+  }
+.careersContent p{
+  line-height: 25px;
+  margin: 20px 0px;
+}
+  .careersContent ul li{
+    font-weight: bold;
+    line-height: 25px;
+    padding: 5px 0px;
+  }
+  .careersContent> ul>li{
+    padding: 10px 0px;
+  }
+.careersContent >ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.careersContent ul ul{
+  margin-left: 40px;
+}
+.Img{
+  position:relative;
+  width: 372px;
+  height: 279px;
+  margin: 20px 0px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+  @media (max-width: 540px) {
+    .careersHead h2 {
+      font-size: 36px;
+    }
+    .careersContent h3{
+      font-size: 30px;
+    }
+    .Img{
+      width: 300px;
+      height: 200px;
+    }
+  }
+
+  @media(max-width:360px){
+    .Img{
+      width: 240px;
+      height: 160px;
+    }
+  }

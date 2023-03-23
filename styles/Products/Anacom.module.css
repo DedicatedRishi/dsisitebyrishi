@@ -1,0 +1,78 @@
+.anacomHead{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.anacomHead h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 100px 0px;
+}
+.anacomContent{
+    background-color: white;
+    padding: 30px 10%;
+}
+
+.aboutAnacom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.anacomImg{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.aboutAnacom h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.aboutAnacom ul li{
+    margin: 10px 0px;
+    line-height: 25px;
+}
+.anacomContent table{
+   width: 100%;
+   text-align: center;
+   margin: 20px 0px;
+   font-family: "Montserrat",'Times New Roman', Times, serif;
+}
+.anacomContent table th{
+    background-color: rgb(32, 32, 249);
+    padding: 10px;
+    color: white;
+}
+.anacomContent table td{
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+@media(max-width:540px){
+    .anacomHead h2{
+        font-size: 36px;
+    }
+    .anacomContent{
+        padding: 30px 5%;
+    }
+    .anacomContent h3{
+        font-size: 30px;
+    }
+    .anacomContent table td, .anacomContent table th{
+        padding: 5px;
+    }
+}
+@media(max-width:414px){
+    .anacomContent table{
+        font-size: 12px;
+    }
+}

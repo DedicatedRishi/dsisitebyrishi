@@ -1,0 +1,59 @@
+.projectsHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.projectsHead h2{
+font-size: 48px;
+margin: 48px;
+margin: 100px 0px;
+}
+.projectsContent{
+    background-color: white;
+    padding: 30px 5%;
+}
+.projectsContent h3{
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.antennaImg{
+    position:relative;
+    width: 400px;
+    height: 400px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+@media(max-width:1024px){
+    .antennaImg{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media(max-width:768px){
+    .antennaImg{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media(max-width:500px){
+    .projectsHead h2{
+        font-size: 36px;
+    }
+    .projectsContent h3{
+        font-size: 30px;
+    }
+    .antennaImg{
+        width: 300px;
+        height: 300px;
+    }
+}

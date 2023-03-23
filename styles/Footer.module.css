@@ -1,0 +1,131 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family:"Montserrat", 'Times New Roman', Times, serif;
+}
+.footerSection{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.quickLinks h3{
+    font-size: 36px;
+    font-family:"Ubuntu", 'Times New Roman', Times, serif;
+}
+.contactSection h3{
+    font-size: 36px;
+    font-family:"Ubuntu", 'Times New Roman', Times, serif;
+}
+.quickLinks ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0px;
+}
+.quickLinks ul li{
+    list-style: none;
+    margin: 10px 20px;
+    transition: all 0.6s;
+}
+.socialLinks{
+    display: flex;
+    align-items: center;
+}
+.socialLinks a{
+    margin: 10px 20px;
+    transition: 0.6s;
+}
+.contactSection .findUs{
+    margin: 10px 0px;
+}
+.contactSection .findUs div{
+    margin: 2px 0px;
+    display: flex;
+    align-items: center;
+}
+.contactSection .findUs a{
+    margin-left: 5px;
+    transition: all 0.6s;
+}
+.copyright{
+    padding: 20px 10px 10px;
+    text-align: center;
+}
+.creator{
+    color: rgb(32, 32, 249);
+}
+@media(max-width:768px){
+    .footerSection{
+        flex-direction: column;
+    }
+    .contactSection{
+        margin-top: 30px;
+    }
+}
+@media(max-width:390px){
+    .footer{
+        padding: 30px 20px;
+    }
+    .footerSection h3{
+        font-size: 28px;
+    }
+    .quickLinks ul li{
+        margin: 10px;
+    }
+    .socialLinks a{
+        margin: 10px;
+    }
+    .contactSection div{
+        font-size: 15px;
+    }
+}
+@media(max-width:320px){
+    .quickLinks ul li{
+        font-size: 14px;
+    }
+    .contactSection div{
+        font-size: 13px;
+    }
+}
+@media(hover:hover){
+    .contactSection .findUs a:hover{
+        color: rgb(32, 32, 249);
+        }
+    .quickLinks ul li:hover{
+        color: rgb(32, 32, 249);
+    }
+    .socialLinks a:hover{
+       transform: scale(1.5);
+    }
+}
+@media(hover:none){
+    .contactSection .findUs a:active{
+        color: rgb(32, 32, 249);
+        }
+    .quickLinks ul li:active{
+        color: rgb(32, 32, 249);
+    }
+}
+@media(max-width: 641px){
+    .copyright a:nth-child(2) {
+        /* color: red; */
+        margin-left: 67px;
+        }
+}
+@media(max-width:487px){
+    .copyright a:nth-child(2){
+        margin-left: 0px;
+    }
+}
+@media(max-width:471px){
+    .copyright a:nth-child(1){
+        /* color: red; */
+        float: left;
+        margin-left: 6.3em;
+    }
+    .copyright a:nth-child(2){
+        /* color: green; */
+        float: left;
+        margin-left: 6.5em;
+    }
+}

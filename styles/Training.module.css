@@ -1,0 +1,71 @@
+.trainingHead {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.trainingHead h2{
+    font-size: 48px;
+    margin: 100px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.Img{
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 20px 0px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.section {
+    background-color: white;
+    padding: 30px 10%;
+  }
+  .section h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0px;
+  }
+  .section p{
+    line-height: 25px;
+    font-family: "Montserrat", "Times New Roman", Times, serif;
+    margin: 20px 0px;
+  }
+  .section ul{
+    margin: 30px 0px;
+  }
+  .section ul li{
+    margin: 20px;
+  }
+  @media(max-width:768px){
+    .Img{
+      width: 450px;
+      height: 300px;
+    }
+  }
+  @media (max-width: 540px) {
+    .trainingHead h2 {
+      font-size: 40px;
+    }
+    .section h3 {
+      font-size: 24px;
+    }
+    .Img{
+      width: 300px;
+      height: 200px;
+    }
+  }
+  @media (max-width: 360px) {
+    .trainingHead h2 {
+      font-size: 36px;
+    }
+    .section {
+      padding: 30px 5%;
+    }
+    .Img{
+      width: 240px;
+      height: 160px;
+    }
+  }

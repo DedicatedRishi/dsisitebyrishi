@@ -1,0 +1,78 @@
+.malibuHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.malibuHead h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 100px 0px;
+    text-align: center;
+}
+.malibuContent{
+    padding: 30px 10%;
+    background-color: white;
+}
+.aboutMalibu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 40px;
+}
+.aboutMalibu h3{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0px;
+    text-align: center;
+}
+.aboutMalibu p{
+    line-height: 25px;
+}
+.malibuImg{
+    position: relative;
+    width: 300px;
+    height: 225px;
+}
+.accessory{
+    margin: 10px 0px 20px;
+}
+.accessory h4{
+    font-size: 24px;
+    margin: 20px 0px 10px;
+}
+.accessory li{
+    margin-left: 20px;
+    padding: 10px 0px;
+}
+.features h4{
+    font-size: 24px;
+    margin: 20px 0px 10px;
+}
+.features li{
+    margin-left: 20px;
+    padding: 10px 0px;
+}
+
+@media(max-width:540px){
+    .malibuContent{
+        padding: 30px 5%;
+    }
+    .malibuHead h2{
+        font-size: 36px;
+    }
+    .malibuContent h3{
+        font-size: 28px;
+    }
+    .malibuContent h4{
+        font-size: 20px;
+    }
+}
+@media(max-width:320px){
+    .malibuImg{
+        width: 270px;
+        height: 205px;
+    }
+}

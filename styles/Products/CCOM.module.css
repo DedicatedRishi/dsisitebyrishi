@@ -1,0 +1,36 @@
+.ccomHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.ccomHead h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 100px 0px;
+}
+.ccomContent{
+    padding: 30px 10%;
+    background-color: white;
+}
+.ccomProducts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.ccomProducts h3{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.ccomProducts ul li{
+   margin-left: 20px;
+   line-height: 25px;
+   margin: 5px;
+}
+.ccomImg{
+    position: relative;
+    width: 182px;
+    height: 170px;
+    align-self: center;
+}

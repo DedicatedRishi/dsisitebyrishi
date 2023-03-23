@@ -1,0 +1,59 @@
+.director{
+    display: flex;
+    height: 600px;
+    background-color: white;
+}
+.firstHalf{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.directorImage{
+    position: relative;
+    width: 80%;
+    height: 80%;
+}
+.secondHalf{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 10%;
+}
+.quoteImage{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+}
+.secondHalf h2{
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.directorWords p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family:"Montserrat", 'Times New Roman', Times, serif;
+}
+.directorName{
+    margin-top: 20px;
+}
+.name{
+    font-weight: bold;
+}
+.founder{
+    margin-top: 5px;
+    font-weight: bold;
+}
+@media(max-width:600px){
+    .director{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .secondHalf h2{
+        font-size: 36px;
+    }
+}

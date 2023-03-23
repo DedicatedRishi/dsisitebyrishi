@@ -1,0 +1,61 @@
+.dcssHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.dcssHead h2{
+    font-size: 48px;
+    text-align: center;
+    margin: 100px 0px;
+    font-weight: bold;
+}
+.dcssContent{
+    background-color: white;
+    padding: 30px 10%;
+}
+.aboutDcss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutDcss h3{
+    font-size: 36px;
+    margin: 10px 0px;
+}
+.dcssImg{
+    position: relative;
+    width: 453px;
+    height: 419px;
+}
+.features{
+    margin: 30px 0px;
+}
+.features p{
+    line-height: 25px;
+    margin: 5px 0px;
+}
+
+@media(max-width:540px){
+    .dcssHead h2{
+        font-size: 36px;
+    }
+    .dcssContent{
+        padding: 30px 5%;
+    }
+    .dcssImg{
+        width: 350px;
+        height: 340px;
+    }
+    .aboutDcss h3{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:360px){
+    .dcssImg{
+        width: 260px;
+        height: 260px;
+    }
+}

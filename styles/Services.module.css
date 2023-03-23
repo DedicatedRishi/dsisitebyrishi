@@ -1,0 +1,58 @@
+.srvSection{
+    background-color: white;
+    padding: 30px 10%;
+}
+.srvheading{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+.srvlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 30px 0px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(171, 139, 129, 0.5);
+    overflow: hidden;
+}
+.srvImage{
+height: 50%;
+position: relative;
+width: 100%;
+}
+.srvDetail{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.srvName{
+text-align: center;
+font-weight: bold;
+}
+.srvPara{
+text-align: center;
+margin-top: 10px;
+}
+
+@media(max-width:912px){
+.srvlist{
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media(max-width:580px){
+    .srvlist{
+        grid-template-columns: 1fr;
+    }
+}

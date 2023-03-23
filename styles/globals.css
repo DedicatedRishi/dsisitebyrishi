@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body::before{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5) url("/bg4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  font-family: "Ubuntu", 'Times New Roman', Times, serif;
+}
+
+a {
+  color: inherit;
+  font-family:"Montserrat", 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+li, p{
+  font-family:"Montserrat", 'Times New Roman', Times, serif;
+}
+
+#message-alert{
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top:-60px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  z-index: 7;
+  transition: 0.6s;
+}
+#message-alert p{
+color: white;
+font-size: 24px;
+text-align: center;
+}
+
+.zoom-animation{
+  animation: zoom 1s ease-in-out 1 alternate forwards;
+}
+
+@keyframes zoom {
+  from{
+      transform: scale(0.1);
+      opacity: 0;
+  }
+  to{
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+.app__video {
+  height: 400px;
+  width: 500px;
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 20px 10px;
+}
+
+.app__video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.app__video-overlay {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__video-overlay_circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width:540px){
+  .app__video{
+    width: 300px;
+    height: 240px;
+  }
+}
